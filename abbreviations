@@ -20,13 +20,13 @@ gbsg                 git bisect good
 gbsr                 git bisect reset
 gbss                 git bisect start
 
-gc                   git commit -v
-gc!                  git commit -v --amend
-gcn!                 git commit -v --no-edit --amend
-gca                  git commit -v -a
-gca!                 git commit -v -a --amend
-gcan!                git commit -v -a --no-edit --amend
-gcans!               git commit -v -a -s --no-edit --amend
+gc                   git commit 
+gc!                  git commit --amend
+gcn!                 git commit --no-edit --amend
+gca                  git commit -a
+gca!                 git commit -a --amend
+gcan!                git commit -a --no-edit --amend
+gcans!               git commit -a -s --no-edit --amend
 gcam                 git commit -a -m
 gcsm                 git commit -s -m
 gcb                  git checkout -b
@@ -122,7 +122,7 @@ grv                  git remote -v
 gsb                  git status -sb
 gsd                  git svn dcommit
 gsi                  git submodule init
-gsps                 git show --pretty=short --show-signature
+gs                   git show --pretty=short --show-signature
 gsr                  git svn rebase
 gss                  git status -s
 gst                  git status
