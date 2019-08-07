@@ -29,6 +29,7 @@ gcan!                git commit -a --no-edit --amend
 gcans!               git commit -a -s --no-edit --amend
 gcam                 git commit -a -m
 gcsm                 git commit -s -m
+gcas                 git commit -a -S 
 gcasm                git commit -a -S -m
 gcs                  git commit -S
 gcmsg                git commit -m
