@@ -29,6 +29,9 @@ gcan!                git commit -a --no-edit --amend
 gcans!               git commit -a -s --no-edit --amend
 gcam                 git commit -a -m
 gcsm                 git commit -s -m
+gcasm                git commit -a -S -m
+gcs                  git commit -S
+gcmsg                git commit -m
 gcb                  git checkout -b
 gcf                  git config --list
 gcl                  git clone --recursive
@@ -36,13 +39,11 @@ gclean               git clean -fd
 #gpristine            git reset --hard && git clean -dfx
 gcm                  git checkout master
 gcd                  git checkout develop
-gcmsg                git commit -m
 gco                  git checkout
 gcount               git shortlog -sn
 gcp                  git cherry-pick
 gcpa                 git cherry-pick --abort
 gcpc                 git cherry-pick --continue
-gcs                  git commit -S
 
 gd                   git diff
 gdca                 git diff --cached
