@@ -22,9 +22,11 @@ gbss                 git bisect start
 
 gc                   git commit 
 gc!                  git commit --amend
+gcs!                 git commit --amend -S
 gcn!                 git commit --no-edit --amend
 gca                  git commit -a
 gca!                 git commit -a --amend
+gcas!                git commit -a --amend -S
 gcan!                git commit -a --no-edit --amend
 gcans!               git commit -a -s --no-edit --amend
 gcam                 git commit -a -m
@@ -98,6 +100,7 @@ gmum                 git merge upstream/master
 gma                  git merge --abort
 
 gp                   git push
+gpf                  git push --force-with-lease
 gpd                  git push --dry-run
 #gpoat                git push origin --all && git push origin --tags
 gpu                  git push upstream
