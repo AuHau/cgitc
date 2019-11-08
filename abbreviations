@@ -74,7 +74,7 @@ gignored             git ls-files -v | grep "^[[:lower:]]"
 gk                   \gitk --all --branches
 gke                  \gitk --all (git log -g --pretty=%h)
 
-gl                   git pull
+gl                   git pull --ff-only
 glg                  git log --stat
 glgp                 git log --stat -p
 glgg                 git log --graph
