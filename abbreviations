@@ -132,11 +132,10 @@ gsr                  git svn rebase
 gss                  git status -s
 gst                  git status
 gsta                 git stash save
-gstaa                git stash apply
 gstc                 git stash clear
 gstd                 git stash drop
 gstl                 git stash list
-gstp                 git stash pop
+gstp                 git stash apply 
 gsts                 git stash show --text
 gsu                  git submodule update
 
