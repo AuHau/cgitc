@@ -20,15 +20,21 @@ gbsg                 git bisect good
 gbsr                 git bisect reset
 gbss                 git bisect start
 
-gc                   git commit -S
-gc!                 git commit --amend -S
+gc                   git commit 
+gc!                  git commit --amend
+gcs!                 git commit --amend -S
 gcn!                 git commit --no-edit --amend
-gca                  git commit -a -S
-gca!                git commit -a --amend -S
-gcan!                git commit -a -S --no-edit --amend
-gcam                 git commit -a -S -m
-gcsm                 git commit -S -m
-gcmsg                git commit -S -m 
+gca                  git commit -a
+gca!                 git commit -a --amend
+gcas!                git commit -a --amend -S
+gcan!                git commit -a --no-edit --amend
+gcans!               git commit -a -s --no-edit --amend
+gcam                 git commit -a -m
+gcsm                 git commit -s -m
+gcas                 git commit -a -S 
+gcasm                git commit -a -S -m
+gcs                  git commit -S
+gcmsg                git commit -m
 gcb                  git checkout -b
 gcf                  git config --list
 gcl                  git clone --recursive
